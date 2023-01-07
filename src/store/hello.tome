@@ -1,0 +1,11 @@
+class {
+  numberOfHellos = 0;
+
+  get numHellos() {
+    return this.numberOfHellos;
+  }
+
+  sayHello() {
+    this.numberOfHellos++;
+  }
+}

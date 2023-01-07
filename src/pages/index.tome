@@ -1,0 +1,12 @@
+
+class {
+  $mapStore = ['hello']
+}
+
+<div class="hello-page">
+  <img src="/tome.svg" class="logo"/>
+  <div class="heading">Tome</div>
+  <h1>Welcome to your new Tome app</h1>
+  <p>You said hello { this.numHellos } times.</p>
+  <Welcome/>
+</div>

@@ -1,0 +1,13 @@
+
+class {
+  $mapStore = ['hello']
+
+  handleClick() {
+    this.sayHello();
+  }
+}
+
+<p>
+  Tome is a declarative Javascript library for building user interfaces - Easy to write, fast to run and elegant to use
+</p>
+<button class="btn__hello" @click={ this.handleClick }>Say hello!</button>

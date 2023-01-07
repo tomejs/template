@@ -1,0 +1,18 @@
+{
+  "name": "tome-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tomejs/vite-plugin-tome": "^0.1.34",
+    "tomejs": "^0.1.34",
+    "vite": "^4.0.4"
+  }
+}
